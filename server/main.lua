@@ -1,6 +1,6 @@
 Citizen.CreateThread(function()
 
-    PerformHttpRequest("https://nameday.abalin.net/api/V1/today", function(err, text, headers)
+    PerformHttpRequest("https://nameday.abalin.net/api/V2/today/GMT", function(err, text, headers)
 
         if text then
 
